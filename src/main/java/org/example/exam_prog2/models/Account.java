@@ -7,4 +7,6 @@ public record Account(
         AccountType accountType,
         List<Transaction> transactions
 ) {
+
+
 }
