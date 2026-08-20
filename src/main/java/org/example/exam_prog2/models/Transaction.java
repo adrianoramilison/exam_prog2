@@ -8,6 +8,7 @@ public record Transaction(
         Instant createdAt,
         TransactionType transactionType,
         BigDecimal amount,
-        String reason
+        String reason,
+        String accountId
 ) {
 }
